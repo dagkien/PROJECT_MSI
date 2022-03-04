@@ -1,0 +1,226 @@
+<head>
+	<title>Sản Phẩm MSI</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/stylesheets/sanpham.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+<style>
+	.type_find input {
+		margin-right: 15px;
+	}
+</style>
+<body>
+	<header>
+			<div class="menu_mobie">
+				
+			</div>
+			<span class="tab"><i id="button_icon_tab" onclick="open_tab()" class="fas fa-bars"></i></span>
+			<span class="logo"><img src="https://storage-asset.msi.com/frontend/imgs/2021-msi-web_banner-gaming_h_b.png"></span>
+			<span class="menu">
+				<ul>
+					<a href="/home"><li>TRANG CHỦ</li></a>
+					<li class="li1_sp">SẢN PHẨM</li>
+					<li>ODM</li>
+					<li>CỘNG ĐỒNG</li>
+					<li>CÓ GÌ MỚI</li>
+					<li>HỖ TRỢ</li>
+				</ul>
+			</span>
+			<span class="search" id="toggle_btn-search-login">
+				
+			</span>
+			<div class="sanpham">
+				<div class="type_sp">
+					<p onmouseenter="laptop()">Laptop</p>
+					<p onmouseenter="screen()">Màn Hình</p>
+					<p onmouseenter="cpt()">Máy Tính Để Bàn</p>
+					<p onmouseenter="card()">Card Đồ Họa</p>
+					<p onmouseenter="bo_mach()">Bo Mạch Chủ</p>
+					<p onmouseenter="phukien()">Thiết Bị Gaming</p>
+				</div>
+				<div class="decription_sp">
+					<img class="img_sp_menu" src="https://storage-asset.msi.com/global/picture/support/navigation_15457035445c21907810f5d.png">
+					<h4 class="name_sp_menu">Gaming Laptops</h4>
+					<p class="type_sp_menu">True Gaming</p>
+					<a href="/product" class="show_page_sp">Show more</a>
+				</div>
+
+				</div>
+		</header>
+	<main id="main">
+		<div class="name_type">
+			<h2>LAPTOP</h2>
+			<p class="chi_muc">Trang Chủ / Máy Tính Xách Tay / Các Sản Phẩm</p>
+			<p>SORT BY</p>
+		</div>
+		<div class="main_layout">
+			<div class="find_sp">
+				<div class="aside_sp_mobie">
+					<h3><i class="fas fa-sliders-h"></i>&#12644;ADVANCED SEARCH</h3>
+				</div>
+
+				<div class="aside_sp_desktop">
+					<div class="type_find">
+						<h4><i class="fas fa-solar-panel"></i>&#12644;Panel Size</h4>
+						<div><label><input type="checkbox" class="ip_sort" value="15.6in"/>15.6" Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="15in"/>15" Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="17in"/>17" Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="17.3in"/>17.3" 4K</label></div>
+					</div>
+
+					<div class="type_find">
+						<h4><i class="fas fa-microchip"></i>&#12644;GPU SKU</h4>
+						<div><label><input type="checkbox" class="ip_sort" value="Intel 11"/>Intel 11<sup>th</sup>Gen.</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="Intel 10"/>Intel 10<sup>th</sup>Gen.</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="Ryzen 10"/>Ryzen 10<sup>th</sup>4000 Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="Ryzen 11"/>Ryzen 11<sup>TM</sup>4000 Series</label></div>
+					</div>
+
+					<div class="type_find">
+						<h4><i class="fas fa-desktop"></i>&#12644;Gaming Series</h4>
+						<div><label><input type="checkbox" class="ip_sort" value="GS Series"/>GS Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="GE Series"/>GE Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="GP Series"/>GP Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="GL Series"/>GL Series</label></div>
+						<div><label><input type="checkbox" class="ip_sort" value="GF Thin Series"/>GF Thin Series</label></div>
+					</div>
+					<button class="find_again"><i class="fas fa-sync"></i>­­Tìm Lại</button>
+				</div>
+			</div>
+			
+			<div class="ctn_sp">
+				<div class="all_sp">
+					<!-- append div san pham -->
+				</div>
+				<div class="number_page">
+					<div class="loading">
+						<div class="ball"></div>
+						<div class="ball"></div>
+						<div class="ball"></div>
+					</div>
+					<!-- <button>1</button>
+					<button>2</button> -->
+				</div>
+			</div>
+		</div>
+			
+	</main>
+	<div class="information_us">
+				<div class="infor_row">
+					<p>CỘNG ĐỒNG</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Chương trình tích điểm thưởng</p>
+					<p>Diễn đàn</p>
+					<p>Mạng xã hội</p>
+					<p>Video</p>
+					<p>Đội game</p>
+					<p>Blog</p>
+					<p>Chia sẻ từ khách hàng</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>HỖ TRỢ</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Tải xuống</p>
+					<p>Trung tâm thành viên</p>
+					<p>Chăm sóc khách hàng trực tuyến</p>
+					<p>Địa chỉ trung tâm bảo hành</p>
+					<p>Bảo hành</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>TIN TỨC</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Tin tức</p>
+					<p>Giải thưởng</p>
+					<p>RSS</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>TRUYỀN THÔNG</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Brochure</p>
+					<p>Hình nền</p>
+					<p>Ứng dụng của MSI</p>
+					</div>
+				</div>	
+
+				<div class="infor_row">
+					<p>VỀ MSI</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer"> 
+					<p>Tầm nhìn của MSI</p>
+					<p>Giới thiệu</p>
+					<p>Thông tin cho nhà đầu tư</p>
+					<p>Không ngừng sáng tạo</p>
+					<p>Chứng nhận</p>
+					<p>CSR</p>
+					<p>Tiêu chuẩn về chất lượng</p>
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container_footer">
+				<p>Cookie Policy</p>
+				<p>Chính sách bảo vệ thông tin</p>
+				<p>Điều khoản sử dụng</p>
+				<p>Liên Hệ</p>
+			</div>
+			<div class="Copyright">
+				<img src="https://storage-asset.msi.com/frontend/imgs/logo.png">
+				<p>Copyright © 2021 Micro-Star INT'L CO., LTD. All rights reserved.</p>
+			</div>
+		</footer>
+		<div class="item">
+			<i class="fab fa-centos"></i>
+		</div>
+		<div class="item2">
+			<img class="logo_royal" src="https://storage-asset.msi.com/frontend/imgs/Widget_TIAMAT.png">
+		</div>
+
+		<section onclick="show_giohang()" id="hidden_sp">
+			<p>Show Cart</p>
+		</section>
+
+		<section id="show_sp">
+			<div class="text_giohang">
+				<h2>GIỎ HÀNG</h2>
+				<ul>Choose from 4 products to buy online. If you buy more, please visit the nearest MSI headquarters</ul>
+			</div>
+			<div class="row_sp">
+				<!-- append Child -->
+			</div>
+			<div class="thanhtoan">
+			<a href="/cart">
+				<button>BUY</button>
+			</a>
+			</div>
+			<div onclick="hidden_giohang()" id="close_giohang">
+				<i class="fas fa-times"></i>
+			</div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="/javascripts/search.js"></script>
+		<script type="text/javascript" src="/javascripts/sanpham.js"></script>
+		<script type="text/javascript" src="/javascripts/main.js"></script>
+		<script src="/javascripts/checkLogin.js"></script>
+</body>
+</html>
+</body>
+</html>

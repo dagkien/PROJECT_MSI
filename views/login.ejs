@@ -1,0 +1,303 @@
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/dangnhap.css">
+
+	<!-- CSS only -->
+</head>
+<body>
+	<div class="container">
+	<header>
+			<span class="tab"><i id="button_icon_tab" onclick="open_tab()" class="fas fa-bars"></i></span>
+			<span class="logo"><img src="https://storage-asset.msi.com/frontend/imgs/logo.png"></span>
+			<span class="menu">
+				<ul>
+					<a href="/home"><li style="font-weight: lighter">TRANG CHỦ</li></a>
+					<li class="li1_sp">SẢN PHẨM</li>
+					<li>ODM</li>
+					<li>CỘNG ĐỒNG</li>
+					<li>CÓ GÌ MỚI</li>
+					<li>HỖ TRỢ</li>
+				</ul>
+			</span>
+			<span class="search" id="toggle_btn-search-login">
+				<!-- append child -->
+			</span>
+			<div class="sanpham">
+				<div class="type_sp">
+					<p onmouseenter="laptop()">Laptop</p>
+					<p onmouseenter="screen()">Màn Hình</p>
+					<p onmouseenter="cpt()">Máy Tính Để Bàn</p>
+					<p onmouseenter="card()">Card Đồ Họa</p>
+					<p onmouseenter="bo_mach()">Bo Mạch Chủ</p>
+					<p onmouseenter="phukien()">Thiết Bị Gaming</p>
+				</div>
+				<div class="decription_sp">
+					<img class="img_sp_menu" src="https://storage-asset.msi.com/global/picture/support/navigation_15457035445c21907810f5d.png">
+					<h4 class="name_sp_menu">Gaming Laptops</h4>
+					<p class="type_sp_menu">True Gaming</p>
+					<a href="/product" class="show_page_sp">Show more</a>
+				</div>
+
+				</div>
+		</header>
+	
+		<main>
+			<div class="main_container">
+			
+				<form>
+				  <h3>Đăng Nhập</h3>
+				  <input type="text" id="user" name="username" placeholder="Tên truy cập" required>
+				  <!-- <input type="text" id="email" name="email" placeholder="email" required> -->
+				  <input type="password" id="password" name="password" placeholder="Mật Khẩu" required>
+				  <div class="checkbox" style="position: relative;">
+					<input type="checkbox" id="checkbox" name="checkbox">
+					<sup>Ghi nhớ tài khoản</sup>	
+					<sup style="position: absolute; right: 0; top: 2;"><a href="/forgot">Quên Mật Khẩu ?</a></sup>
+				  </div>
+				  <input style="background-color: red; color: white; text-align: center; cursor: pointer; outline: none;" onclick="check()" value="Đăng Nhập">
+				  <p>hoặc</p>
+				  <button style="background-color: #f3513c; cursor: pointer; color: white; text-align: center; padding: 12px 20px; width: 45%; border-radius: 5px; margin-top: 10px;"> <a style=" padding: 12px 50px; color: white;" id="login_gg">Login With Google <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="white" class="bi bi-google" viewBox="0 0 16 16">
+					<path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+				  </svg></a></button>
+				  <button style="background-color: #282525; color: white; text-align: center; padding: 12px 20px; width: 45%; border-radius: 5px; margin-top: 10px;"> <a style=" padding: 12px 50px; color: white;" href="/register">Tạo tài khoản</a></button>
+				</form> 
+			</div>
+		</main>
+
+	<div class="information_us">
+				<div class="infor_row">
+					<p>CỘNG ĐỒNG</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Chương trình tích điểm thưởng</p>
+					<p>Diễn đàn</p>
+					<p>Mạng xã hội</p>
+					<p>Video</p>
+					<p>Đội game</p>
+					<p>Blog</p>
+					<p>Chia sẻ từ khách hàng</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>HỖ TRỢ</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Tải xuống</p>
+					<p>Trung tâm thành viên</p>
+					<p>Chăm sóc khách hàng trực tuyến</p>
+					<p>Địa chỉ trung tâm bảo hành</p>
+					<p>Bảo hành</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>TIN TỨC</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Tin tức</p>
+					<p>Giải thưởng</p>
+					<p>RSS</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>TRUYỀN THÔNG</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Brochure</p>
+					<p>Hình nền</p>
+					<p>Ứng dụng của MSI</p>
+					</div>
+				</div>	
+
+				<div class="infor_row">
+					<p>VỀ MSI</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer"> 
+					<p>Tầm nhìn của MSI</p>
+					<p>Giới thiệu</p>
+					<p>Thông tin cho nhà đầu tư</p>
+					<p>Không ngừng sáng tạo</p>
+					<p>Chứng nhận</p>
+					<p>CSR</p>
+					<p>Tiêu chuẩn về chất lượng</p>
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container_footer">
+				<p>Cookie Policy</p>
+				<p>Chính sách bảo vệ thông tin</p>
+				<p>Điều khoản sử dụng</p>
+				<p>Liên Hệ</p>
+			</div>
+			<div class="Copyright">
+				<img src="https://storage-asset.msi.com/frontend/imgs/logo.png">
+				<p>Copyright © 2021 Micro-Star INT'L CO., LTD. All rights reserved.</p>
+			</div>
+		</footer>
+		<div class="item">
+			<i class="fab fa-centos"></i>
+		</div>
+		<div class="item2">
+			<img class="logo_royal" src="https://storage-asset.msi.com/frontend/imgs/Widget_TIAMAT.png">
+		</div>
+	</div>
+
+	<!-- <script type="module">
+				// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js	";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+		import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js";
+		import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		const firebaseConfig = {
+			apiKey: "AIzaSyC8khmSRPWMQXS7lJv95BE_ICm5aQqBRHw",
+			authDomain: "msi-project-a917e.firebaseapp.com",
+			databaseURL: "https://msi-project-a917e-default-rtdb.firebaseio.com",
+			projectId: "msi-project-a917e",
+			storageBucket: "msi-project-a917e.appspot.com",
+			messagingSenderId: "845675207273",
+			appId: "1:845675207273:web:6d536e661b1d0ef5b320f8",
+			measurementId: "G-SLCWDVXJYB"
+		};
+
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+		const database = getDatabase(app);
+		const auth = getAuth();	
+
+		var LoginGG = document.querySelector("#login_gg");
+		LoginGG.addEventListener("click" , (e) => {
+			e.preventDefault();
+			var username = document.querySelector("#user").value;
+			var email = document.querySelector("#email").value;
+			var password = document.querySelector("#password").value;
+
+
+			createUserWithEmailAndPassword(auth, email, password)
+			.then((userCredential) => {
+				// Signed in 
+				const user = userCredential.user;
+				// ...
+				set(ref(database, 'users/' + user.uid), {
+					username: username,
+					email: email,
+				})
+				alert("user created!")
+			})
+			.catch((error) => {
+				const errorCode = error.code;
+				const errorMessage = error.message;
+				// ..
+				alert(errorMessage);
+			});
+		})
+
+	</script> -->
+	<script type="module">
+		// Import the functions you need from the SDKs you need
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+		import { getAuth, GoogleAuthProvider, signInWithRedirect, getRedirectResult,signInWithPopup,signOut  } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js";
+		// TODO: Add SDKs for Firebase products that you want to use
+		// https://firebase.google.com/docs/web/setup#available-libraries
+	  
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		const firebaseConfig = {
+		  apiKey: "AIzaSyBroAGHiZ8toyVrPBf636739XCuhBfOtHc",
+		  authDomain: "gg-login-bd48c.firebaseapp.com",
+		  projectId: "gg-login-bd48c",
+		  storageBucket: "gg-login-bd48c.appspot.com",
+		  messagingSenderId: "541459544371",
+		  appId: "1:541459544371:web:949e72463a0f2522a1e646",
+		  measurementId: "G-JB9J2HX7JV"
+		};	
+	  
+		// Initialize Firebase
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+		const provider = new GoogleAuthProvider(app);
+		const auth = getAuth(app);
+
+		var login = document.querySelector("#login_gg");
+		login.addEventListener('click', (e) => {
+			e.preventDefault();
+			// signInWithRedirect(auth, provider);
+			// getRedirectResult(auth)
+			// .then((result) => {
+			// 	// This gives you a Google Access Token. You can use it to access Google APIs.
+			// 	const credential = GoogleAuthProvider.credentialFromResult(result);
+			// 	const token = credential.accessToken;
+
+			// 	// The signed-in user info.
+			// 	const user = result.user;
+			// }).catch((error) => {
+			// 	// Handle Errors here.
+			// 	const errorCode = error.code;
+			// 	const errorMessage = error.message;
+			// 	// The email of the user's account used.
+			// 	const email = error.email;
+			// 	// The AuthCredential type that was used.
+			// 	const credential = GoogleAuthProvider.credentialFromError(error);
+			// 	// ...
+			// });
+			signInWithPopup(auth, provider)
+			.then((result) => {
+				// This gives you a Google Access Token. You can use it to access the Google API.
+				const credential = GoogleAuthProvider.credentialFromResult(result);
+				const token = credential.accessToken;
+				// The signed-in user info.
+				const user = result.user;
+
+				console.log(user);
+				localStorage.setItem("isLogin", true);
+				localStorage.setItem("avatar", user.photoURL);
+				localStorage.setItem("email", user.email);
+				localStorage.setItem("username", user.displayName);
+				localStorage.setItem("role", 0);
+				
+				location.reload();
+				// ...
+			}).catch((error) => {
+				// Handle Errors here.
+				const errorCode = error.code;
+				const errorMessage = error.message;
+				// The email of the user's account used.
+				const email = error.email;
+				// The AuthCredential type that was used.
+				const credential = GoogleAuthProvider.credentialFromError(error);
+				// ...
+			});
+		})
+
+		// signOut(auth).then(() => {
+		// // Sign-out successful.
+		// }).catch((error) => {
+		// // An error happened.
+		// });
+	  </script>
+
+
+
+
+
+
+
+		<script type="text/javascript" src="/javascripts/main.js"></script>
+		<script type="text/javascript" src="/javascripts/login.js"></script
+		<script src="/javascripts/checkLogin.js"></script>
+		<!-- JavaScript Bundle with Popper -->
+</body>
+</html>

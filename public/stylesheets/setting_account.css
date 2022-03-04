@@ -1,0 +1,179 @@
+.form-group .form {
+    margin-bottom: 30px;
+}
+
+#profile .form {
+    display: inline-block;
+    width: calc(50% - 30px);
+    vertical-align: top;
+    margin-right: 20px;
+}
+.form-group label {
+    font-family: MSIBodyFont, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.star {
+    color: #EA2023;
+    margin-left: 3px;
+}
+.formsty {
+    border: #ccc 1px solid;
+    padding: 15px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 16px;
+    position: relative;
+}
+.membernav > ul  .li_active {
+	color: #EA2023;
+    border-right: #EA2023 5px solid;
+    width: 100%;
+}
+.radiosty {
+    display: flex;
+    padding-top: 10px;
+}
+
+.radiosty input[type="radio"] {
+    display: none;
+}
+.radiosty li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.radiosty input[type="radio"] + label {
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.radiosty input[type="radio"]:checked + label:before {
+    border-color: #EA2023;
+}
+.radiosty input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: #999 1px solid;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.radiosty input[type="radio"]:checked + label:after {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    background: #EA2023;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.checkstyopt + label {
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.checkstyopt:checked + label:before {
+    background: -webkit-gradient(linear, left top, right top, from(#EA2023), color-stop(#f00), to(#c00));
+    background: linear-gradient(left, #EA2023, #f00, #c00);
+    background: #f00;
+    -webkit-box-shadow: #300 1px 1px 3px inset;
+    box-shadow: #300 1px 1px 3px inset;
+}
+.checkstyopt + label:before {
+    content: "";
+    display: block;
+    background: -webkit-gradient(linear, left top, right top, from(#eee), color-stop(#ccc), to(#ddd));
+    background: linear-gradient(left, #eee, #ccc, #ddd);
+    background: #ccc;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    -webkit-box-shadow: #999 1px 1px 3px inset;
+    box-shadow: #999 1px 1px 3px inset;
+}
+.checkstyopt:checked + label:after {
+    left: 30px;
+}
+
+.checkstyopt + label:after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 26px;
+    border-radius: 28px;
+    background: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+#profile .note {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.checkstyopt {
+    display: none;
+}
+
+#subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: none;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: #ccc 1px solid;
+}
+.form-full {
+    margin-bottom: 40px;
+    width: 90%;
+}
+.form-full a {
+    color: #EA2023;
+}
+.btcenter a {
+    margin: 0 5px;
+}
+.btsty {
+    background: #EA2023;
+    border: #EA2023 1px solid;
+    outline: none;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1;
+}
+.btcenter {
+    text-align: center;
+    padding: 25px 0;
+}

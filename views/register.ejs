@@ -1,0 +1,145 @@
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/dangnhap.css">
+</head>
+<body>
+	<div class="container">
+	<header>
+			<span class="tab"><i id="button_icon_tab" onclick="open_tab()" class="fas fa-bars"></i></span>
+			<span class="logo"><img src="https://storage-asset.msi.com/frontend/imgs/logo.png"></span>
+			<span class="menu">
+				<ul>
+					<a href="/home"><li style="font-weight: lighter">TRANG CHỦ</li></a>
+					<li class="li1_sp">SẢN PHẨM</li>
+					<li>ODM</li>
+					<li>CỘNG ĐỒNG</li>
+					<li>CÓ GÌ MỚI</li>
+					<li>HỖ TRỢ</li>
+				</ul>
+			</span>
+			<span class="search" id="toggle_btn-search-login">
+				
+			</span>
+			<div class="sanpham">
+				<div class="type_sp">
+					<p onmouseenter="laptop()">Laptop</p>
+					<p onmouseenter="screen()">Màn Hình</p>
+					<p onmouseenter="cpt()">Máy Tính Để Bàn</p>
+					<p onmouseenter="card()">Card Đồ Họa</p>
+					<p onmouseenter="bo_mach()">Bo Mạch Chủ</p>
+					<p onmouseenter="phukien()">Thiết Bị Gaming</p>
+				</div>
+				<div class="decription_sp">
+					<img class="img_sp_menu" src="https://storage-asset.msi.com/global/picture/support/navigation_15457035445c21907810f5d.png">
+					<h4 class="name_sp_menu">Gaming Laptops</h4>
+					<p class="type_sp_menu">True Gaming</p>
+					<a href="/product" class="show_page_sp">Show more</a>
+				</div>
+
+				</div>
+		</header>
+	
+		<main>
+			<div class="main_container">
+			
+				<form>
+				  <h3>Đăng Ký</h3>
+				  <input type="text" id="user" name="user" placeholder="Tên truy cập" required>
+				  <input type="password" id="password" name="password" placeholder="Mật Khẩu" required>
+				  <input type="password" id="password2" name="password2" placeholder="Nhập Lại mật khẩu" required>
+				  <input type="email" id="email" name="email" placeholder="Email" required>
+				  <div class="checkbox"><input type="checkbox" name="checkbox" required><sup>Tôi đồng ý với <u>điều khoản</u> và <u>Chính sách bảo mật</u></sup></div>
+				  <input onclick="check()" style="cursor: pointer; text-align: center; outline: none;" value="Đăng Ký">
+				</form> 
+			</div>
+		</main>
+
+	<div class="information_us">
+				<div class="infor_row">
+					<p>CỘNG ĐỒNG</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Chương trình tích điểm thưởng</p>
+					<p>Diễn đàn</p>
+					<p>Mạng xã hội</p>
+					<p>Video</p>
+					<p>Đội game</p>
+					<p>Blog</p>
+					<p>Chia sẻ từ khách hàng</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>HỖ TRỢ</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Tải xuống</p>
+					<p>Trung tâm thành viên</p>
+					<p>Chăm sóc khách hàng trực tuyến</p>
+					<p>Địa chỉ trung tâm bảo hành</p>
+					<p>Bảo hành</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>TIN TỨC</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Tin tức</p>
+					<p>Giải thưởng</p>
+					<p>RSS</p>
+					</div>
+				</div>
+
+				<div class="infor_row">
+					<p>TRUYỀN THÔNG</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer">
+					<p>Brochure</p>
+					<p>Hình nền</p>
+					<p>Ứng dụng của MSI</p>
+					</div>
+				</div>	
+
+				<div class="infor_row">
+					<p>VỀ MSI</p>
+					<span><i class="fas fa-plus"></i></span>
+					<div class="expand_footer"> 
+					<p>Tầm nhìn của MSI</p>
+					<p>Giới thiệu</p>
+					<p>Thông tin cho nhà đầu tư</p>
+					<p>Không ngừng sáng tạo</p>
+					<p>Chứng nhận</p>
+					<p>CSR</p>
+					<p>Tiêu chuẩn về chất lượng</p>
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container_footer">
+				<p>Cookie Policy</p>
+				<p>Chính sách bảo vệ thông tin</p>
+				<p>Điều khoản sử dụng</p>
+				<p>Liên Hệ</p>
+			</div>
+			<div class="Copyright">
+				<img src="https://storage-asset.msi.com/frontend/imgs/logo.png">
+				<p>Copyright © 2021 Micro-Star INT'L CO., LTD. All rights reserved.</p>
+			</div>
+		</footer>
+		<div class="item">
+			<i class="fab fa-centos"></i>
+		</div>
+		<div class="item2">
+			<img class="logo_royal" src="https://storage-asset.msi.com/frontend/imgs/Widget_TIAMAT.png">
+		</div>
+	</div>
+		<script type="text/javascript" src="/javascripts/main.js"></script>
+		<script type="text/javascript" src="/javascripts/register.js"></script>
+		<script src="/javascripts/checkLogin.js"></script>
+</body>
+</html>
