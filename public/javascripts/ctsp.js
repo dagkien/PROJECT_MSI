@@ -1,4 +1,4 @@
-const Base_URL = "http://localhost:3000/product_detail/ApiProduct_deatil";
+const Base_URL = "https://msiproject123.herokuapp.com/product_detail/ApiProduct_deatil";
 let r = /\d+/;
 let host =  window.location.toString().slice(30);
 const endPoint = host.match(r)
