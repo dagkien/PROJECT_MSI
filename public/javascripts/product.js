@@ -1,6 +1,6 @@
-const Base_URL = "http://localhost:3000/product/productApi";
-const Base_URL2 = "http://localhost:3000/product_detail/ApiProduct_deatil";
-const Base_URL3 = "http://localhost:3000/update_product/delete";
+const Base_URL = "https://msiproject123.herokuapp.com/product/productApi";
+const Base_URL2 = "https://msiproject123.herokuapp.com/product_detail/ApiProduct_deatil";
+const Base_URL3 = "https://msiproject123.herokuapp.com/update_product/delete";
 
 const body_table = document.querySelector("#body_table");
 let modal = document.querySelector("#modal");
