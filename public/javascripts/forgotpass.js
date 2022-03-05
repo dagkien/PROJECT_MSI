@@ -1,6 +1,6 @@
-const Base_URL = "http://localhost:3000/login/ApiLogin";
-const Base_URL2 = "http://localhost:3000/forgot/send";
-const Base_URL3 = "http://localhost:3000/login/update";
+const Base_URL = "https://msiproject123.herokuapp.com/login/ApiLogin";
+const Base_URL2 = "https://msiproject123.herokuapp.com/forgot/send";
+const Base_URL3 = "https://msiproject123.herokuapp.com/login/update";
 
 let email = document.querySelector("#email");
 let id_user_,username_,email_,role_,avata_;
