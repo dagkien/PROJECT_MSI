@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/users/userApi";
+const BASE_URL = "https://msiproject123.herokuapp.com/users/userApi";
 
 const body_table = document.querySelector("#body_table");
 let listUsers= [];
@@ -34,6 +34,6 @@ const directPage = () => {
 }
 
 const deleted = (id) => {
-  fetch(`http://localhost:3000/users/${id}`, { method: 'DELETE' })
+  fetch(`https://msiproject123.herokuapp.com/users/${id}`, { method: 'DELETE' })
     .then(() => alert("DELETED"));
 }
