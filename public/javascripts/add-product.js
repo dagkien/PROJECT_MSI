@@ -1,5 +1,5 @@
-const Base_URL = "http://localhost:3000/product/productApi";
-const Base_URL2 = "http://localhost:3000/add_product/add"
+const Base_URL = "https://msiproject123.herokuapp.com/product/productApi";
+const Base_URL2 = "https://msiproject123.herokuapp.com/add_product/add"
 
 const fetchApi = async() => {
 	await fetch(`${Base_URL}`)
