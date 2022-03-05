@@ -4,7 +4,7 @@ const endPoint = host.match(r)
 const id = endPoint[0];
 
 const fetchApi = async () => {
-    await fetch(`http://localhost:3000/users/${id}`)
+    await fetch(`https://msiproject123.herokuapp.com/users/${id}`)
     .then(response => response.json())
     .then(data => {return user = data});
     fetchData();
@@ -78,7 +78,7 @@ const save_form = async () => {
             avatar: avatar.value,
         })
     };
-    await fetch(`http://localhost:3000/users/${endPoint}`, requestOptions)
+    await fetch(`https://msiproject123.herokuapp.com/users/${endPoint}`, requestOptions)
         .then(response => response.json())
         .then(data => console.log(data));
     window.open("customer.html", "_self")
