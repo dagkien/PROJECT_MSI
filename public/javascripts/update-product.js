@@ -1,4 +1,4 @@
-const Base_URL = "http://localhost:3000/update_product/update";
+const Base_URL = "https://msiproject123.herokuapp.com/update_product/update";
 
 let r = /\d+/;
 let host =  window.location.toString().slice(30);
