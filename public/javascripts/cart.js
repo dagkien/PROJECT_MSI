@@ -1,7 +1,7 @@
-const Base_URL_Payment = "http://localhost:3000/orders/payment";
-const Base_URL_Product = "http://localhost:3000/product/productApi";
-const Base_URL2_Detail = "http://localhost:3000/product_detail/ApiProduct_deatil";
-const Base_URL_Promotion = "http://localhost:3000/promotion";
+const Base_URL_Payment = "https://msiproject123.herokuapp.com/orders/payment";
+const Base_URL_Product = "https://msiproject123.herokuapp.com/product/productApi";
+const Base_URL2_Detail = "https://msiproject123.herokuapp.com/product_detail/ApiProduct_deatil";
+const Base_URL_Promotion = "https://msiproject123.herokuapp.com/promotion";
 const redirect = () => {
 	const isLoginPage = localStorage.getItem("isLogin");
 	if(isLoginPage !== "true") {
