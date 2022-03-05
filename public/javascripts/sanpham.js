@@ -1,6 +1,6 @@
-const Base_URL = "http://localhost:3000/product/productApi";
-const Base_URL2 = "http://localhost:3000/product_detail/ApiProduct_deatil";
-const Base_URL_cate = "http://localhost:3000/category";
+const Base_URL = "https://msiproject123.herokuapp.com/product/productApi";
+const Base_URL2 = "https://msiproject123.herokuapp.com/product_detail/ApiProduct_deatil";
+const Base_URL_cate = "https://msiproject123.herokuapp.com/category";
 
 let all_sp = document.querySelector('.all_sp');
 let add_sp = document.querySelectorAll('.buy_sp');
